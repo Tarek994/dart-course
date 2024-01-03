@@ -12,11 +12,19 @@ bool isStudent = true;
 
 /* Dart variable usage */
 
-void main() {
-  // Dart Example
-  String greeting = 'Hello, Dart!';
-  int dartVersion = 2;
+// void main() {
+//   // Dart Example
+//   String greeting = 'Hello, Dart!';
+//   int dartVersion = 2;
 
-  print(greeting);
-  print('Dart version: $dartVersion');
+//   print(greeting);
+//   print('Dart version: $dartVersion');
+// }
+
+/* We cannot define [ const, final ] twice !!!!!! */ 
+main () {
+  const PI = 3.14;
+  final name = "algorithm";
+  int age = 23;
+  print(age);
 }
