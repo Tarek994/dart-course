@@ -26,6 +26,6 @@ main () {
     print(num.isInfinite);
     print(num.isNegative);
     print(num.sign); // for define if the number positive or nigative 
-
+    print(num.isEven);
 
 }
