@@ -28,4 +28,5 @@ main () {
     print(num.sign); // for define if the number positive or nigative 
     print(num.isEven);
     print(num.isOdd);
+    print(num.abs());
 }
