@@ -29,4 +29,6 @@ main () {
     print(num.isEven);
     print(num.isOdd);
     print(num.abs());
+    print(num.ceil());
+
 }
