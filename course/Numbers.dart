@@ -18,7 +18,7 @@ main () {
 // }
 
     int num = 10;
-    double num1 = 5.5;
+    double num1 = 5.4;
 
     /* Number Properties */
 
@@ -31,5 +31,11 @@ main () {
     print(num.abs());
     print(num.ceil());
     print(num.compareTo(3));  // more or equal or less 
-
+    print(num.floor());
+    print(num.remainder(2)); // If a number is divided by two, and an indivisible number remains, the            indivisible remainder will appear
+    print(num1.round()); // Find the nearest number
+    print(num.toDouble()); // Convert the number from Integer to Double  (10 > 10.0) 
+    print(num1.toInt()); // Convert the number from Double to Integer  (5.2 > 5)
+    print(num.toString() is String);
+    print(num1.truncate()); // remove the integer numbers to be like 5.7 > 5 / 10.2 > 10
 }
