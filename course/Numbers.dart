@@ -30,5 +30,6 @@ main () {
     print(num.isOdd);
     print(num.abs());
     print(num.ceil());
+    print(num.compareTo(3));  // more or equal or less 
 
 }
